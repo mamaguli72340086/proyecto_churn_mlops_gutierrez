@@ -1,0 +1,67 @@
+2026-06-16 23:31:15,640 | INFO | Modelo cargado correctamente: modelo_churn_v1
+2026-06-16 23:31:20,071 | INFO | 1 change detected
+2026-06-16 23:31:25,979 | INFO | Modelo cargado correctamente: modelo_churn_v1
+2026-06-16 23:31:39,078 | INFO | Solicitud | metodo=GET | ruta=/ | estado=200 | latencia_ms=5.810
+2026-06-16 23:31:39,168 | INFO | Solicitud | metodo=GET | ruta=/favicon.ico | estado=404 | latencia_ms=0.603
+2026-06-16 23:31:49,890 | INFO | Solicitud | metodo=GET | ruta=/docs | estado=200 | latencia_ms=0.393
+2026-06-16 23:31:50,297 | INFO | Solicitud | metodo=GET | ruta=/openapi.json | estado=200 | latencia_ms=27.492
+2026-06-16 23:32:49,233 | INFO | Solicitud | metodo=GET | ruta=/metric | estado=404 | latencia_ms=0.447
+2026-06-16 23:32:49,468 | INFO | Solicitud | metodo=GET | ruta=/favicon.ico | estado=404 | latencia_ms=1.256
+2026-06-16 23:32:58,294 | INFO | Solicitud | metodo=GET | ruta=/docs | estado=200 | latencia_ms=0.546
+2026-06-16 23:32:59,180 | INFO | Solicitud | metodo=GET | ruta=/openapi.json | estado=200 | latencia_ms=1.657
+2026-06-16 23:33:12,173 | INFO | Solicitud | metodo=GET | ruta=/health | estado=200 | latencia_ms=2.711
+2026-06-16 23:33:12,266 | INFO | Solicitud | metodo=GET | ruta=/favicon.ico | estado=404 | latencia_ms=1.119
+2026-06-16 23:33:31,363 | INFO | Solicitud | metodo=GET | ruta=/metrics | estado=200 | latencia_ms=7.638
+2026-06-16 23:33:31,408 | INFO | Solicitud | metodo=GET | ruta=/favicon.ico | estado=404 | latencia_ms=0.407
+2026-06-16 23:36:52,869 | INFO | Solicitud | metodo=GET | ruta=/ | estado=200 | latencia_ms=2.395
+2026-06-16 23:36:53,006 | INFO | Solicitud | metodo=GET | ruta=/favicon.ico | estado=404 | latencia_ms=0.657
+2026-06-16 23:56:47,337 | INFO | Predicción | resultado=alto_riesgo | probabilidad=0.8700 | alertas=0
+2026-06-16 23:56:47,341 | INFO | Solicitud | metodo=POST | ruta=/predict | estado=200 | latencia_ms=21.828
+2026-06-16 23:58:48,258 | WARNING | Error de validación | ruta=/predict | detalle=[{'type': 'less_than_equal', 'loc': ('body', 'antiguedad'), 'msg': 'Input should be less than or equal to 120', 'input': 180, 'ctx': {'le': 120}}]
+2026-06-16 23:58:48,258 | INFO | Solicitud | metodo=POST | ruta=/predict | estado=422 | latencia_ms=3.982
+2026-06-17 00:00:00,274 | INFO | Solicitud | metodo=GET | ruta=/docs | estado=200 | latencia_ms=0.493
+2026-06-17 00:00:00,595 | INFO | Solicitud | metodo=GET | ruta=/openapi.json | estado=200 | latencia_ms=1.023
+2026-06-17 00:00:30,284 | INFO | Predicción | resultado=alto_riesgo | probabilidad=0.8700 | alertas=0
+2026-06-17 00:00:30,288 | INFO | Solicitud | metodo=POST | ruta=/predict | estado=200 | latencia_ms=8.854
+2026-06-17 00:35:42,695 | INFO | Solicitud | metodo=GET | ruta=/docs | estado=200 | latencia_ms=4.668
+2026-06-17 00:35:43,143 | INFO | Solicitud | metodo=GET | ruta=/openapi.json | estado=200 | latencia_ms=13.349
+2026-06-17 00:36:02,508 | WARNING | Error de validación | ruta=/predict | detalle=[{'type': 'missing', 'loc': ('body', 'reclamos'), 'msg': 'Field required', 'input': {'antiguedad': 36, 'cargo_mensual': 60.5}}]
+2026-06-17 00:36:02,509 | INFO | Solicitud | metodo=POST | ruta=/predict | estado=422 | latencia_ms=8.804
+2026-06-17 00:37:53,154 | INFO | Solicitud | metodo=GET | ruta=/docs | estado=200 | latencia_ms=0.587
+2026-06-17 00:37:53,395 | INFO | Solicitud | metodo=GET | ruta=/openapi.json | estado=200 | latencia_ms=0.681
+2026-06-17 00:38:10,157 | WARNING | Error de validación | ruta=/predict | detalle=[{'type': 'greater_than_equal', 'loc': ('body', 'cargo_mensual'), 'msg': 'Input should be greater than or equal to 0', 'input': -50, 'ctx': {'ge': 0.0}}]
+2026-06-17 00:38:10,158 | INFO | Solicitud | metodo=POST | ruta=/predict | estado=422 | latencia_ms=10.246
+2026-06-17 00:39:02,520 | INFO | Solicitud | metodo=GET | ruta=/metrics | estado=200 | latencia_ms=4.923
+2026-06-17 00:39:02,633 | INFO | Solicitud | metodo=GET | ruta=/favicon.ico | estado=404 | latencia_ms=1.476
+2026-06-17 00:41:14,769 | INFO | 1 change detected
+2026-06-17 00:41:15,171 | INFO | 1 change detected
+2026-06-17 00:42:01,769 | INFO | 1 change detected
+2026-06-17 00:42:31,847 | INFO | 1 change detected
+2026-06-17 00:42:32,205 | INFO | 1 change detected
+2026-06-17 00:44:15,482 | INFO | 1 change detected
+2026-06-17 00:44:15,850 | INFO | 1 change detected
+2026-06-17 01:02:02,099 | INFO | 1 change detected
+2026-06-17 01:02:02,605 | INFO | 1 change detected
+2026-06-17 01:03:34,754 | INFO | 2 changes detected
+2026-06-17 01:03:36,086 | INFO | 1 change detected
+2026-06-17 01:03:38,005 | INFO | 1 change detected
+2026-06-17 01:03:38,363 | INFO | 1 change detected
+2026-06-17 01:03:41,296 | INFO | Modelo cargado correctamente: modelo_churn_v1
+2026-06-17 01:04:46,563 | INFO | 1 change detected
+2026-06-17 01:04:47,449 | INFO | 1 change detected
+2026-06-17 01:04:49,318 | INFO | 1 change detected
+2026-06-17 01:04:49,677 | INFO | 1 change detected
+2026-06-17 01:04:52,591 | INFO | Modelo cargado correctamente: modelo_churn_v1
+2026-06-17 01:19:11,516 | INFO | Predicción | resultado=bajo_riesgo | probabilidad=0.0725 | alertas=0
+2026-06-17 01:19:11,518 | INFO | Solicitud | metodo=POST | ruta=/predict | estado=200 | latencia_ms=9.477
+2026-06-17 01:19:11,528 | INFO | Predicción | resultado=bajo_riesgo | probabilidad=0.0118 | alertas=0
+2026-06-17 01:19:11,531 | INFO | Solicitud | metodo=POST | ruta=/predict | estado=200 | latencia_ms=3.378
+2026-06-17 01:19:11,540 | INFO | Predicción | resultado=alto_riesgo | probabilidad=0.8848 | alertas=0
+2026-06-17 01:19:11,542 | INFO | Solicitud | metodo=POST | ruta=/predict | estado=200 | latencia_ms=3.137
+2026-06-17 01:19:11,550 | INFO | Predicción | resultado=alto_riesgo | probabilidad=0.9978 | alertas=0
+2026-06-17 01:19:11,551 | INFO | Solicitud | metodo=POST | ruta=/predict | estado=200 | latencia_ms=4.036
+2026-06-17 01:19:11,559 | WARNING | Error de validación | ruta=/predict | detalle=[{'type': 'less_than_equal', 'loc': ('body', 'antiguedad'), 'msg': 'Input should be less than or equal to 120', 'input': 180, 'ctx': {'le': 120}}]
+2026-06-17 01:19:11,560 | INFO | Solicitud | metodo=POST | ruta=/predict | estado=422 | latencia_ms=1.623
+2026-06-17 01:19:11,569 | WARNING | Error de validación | ruta=/predict | detalle=[{'type': 'greater_than_equal', 'loc': ('body', 'cargo_mensual'), 'msg': 'Input should be greater than or equal to 0', 'input': -50.0, 'ctx': {'ge': 0.0}}]
+2026-06-17 01:19:11,569 | INFO | Solicitud | metodo=POST | ruta=/predict | estado=422 | latencia_ms=1.696
+2026-06-17 01:19:11,580 | INFO | Solicitud | metodo=GET | ruta=/metrics | estado=200 | latencia_ms=1.800
