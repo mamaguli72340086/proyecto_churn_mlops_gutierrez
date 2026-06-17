@@ -65,3 +65,4 @@
 2026-06-17 01:19:11,569 | WARNING | Error de validación | ruta=/predict | detalle=[{'type': 'greater_than_equal', 'loc': ('body', 'cargo_mensual'), 'msg': 'Input should be greater than or equal to 0', 'input': -50.0, 'ctx': {'ge': 0.0}}]
 2026-06-17 01:19:11,569 | INFO | Solicitud | metodo=POST | ruta=/predict | estado=422 | latencia_ms=1.696
 2026-06-17 01:19:11,580 | INFO | Solicitud | metodo=GET | ruta=/metrics | estado=200 | latencia_ms=1.800
+2026-06-17 17:19:11,580 | INFO | Solicitud | metodo=GET | ruta=/metrics | estado=200 | latencia_ms=1.800
